@@ -30,8 +30,10 @@ html, body {
   background-color: rgba(216,25,47,1);
 }
 
-.nav-pills>li+li {
-    margin-left: 2px;
+.nav-pills li {
+    margin:  0 10px;
+    text-align: center;
+    width: 100px;
 }
 
 .header h1 {

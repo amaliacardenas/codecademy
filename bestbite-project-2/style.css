@@ -112,7 +112,7 @@ html, body {
 .menu-items {
   text-align: center;
   margin-top: 30px;
-  margin-bottom: 100px;
+  margin-bottom: 60px;
 }
 
 
@@ -128,6 +128,33 @@ html, body {
 
 
 /*Footer section*/
+
+.footer {
+  background-color: #eeeeee;
+  font-size: .9em;
+  height: 150px;
+}
+
+.footer .container .row {
+  margin-top: 40px;
+}
+
+.footer a {
+  text-decoration: none;
+  color: #d8192f;
+  margin-left: 70px;
+ 
+}
+
+.footer p {
+  float: left;
+  width: 50%;
+}
+
+.footer .a-right {
+  float: right;
+  width: 80%;
+}
 
 /* Media Queries */
 @media (max-width: 680px) {

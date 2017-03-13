@@ -70,7 +70,7 @@ html, body {
 }
 
 
-/* Banner */
+/* Section banner */
 .banner, .supporting {
   text-align: center;
   padding-top: 40px;
@@ -81,6 +81,25 @@ html, body {
   height:180px; 
   color: #fff;
 }
+
+.section h3 {
+  font-size: 30px;
+  margin-top: -8px;
+
+}
+
+.section-button {
+  background-color: rgba(216,25,47,.5);
+  border: none;
+  margin-top: 20px; 
+}
+
+.section-button a {
+  text-decoration: none;
+  color: #fff;
+}
+
+/*Section newest contribution*/
 
 /* Media Queries */
 @media (max-width: 680px) {

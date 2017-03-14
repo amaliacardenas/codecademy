@@ -50,6 +50,9 @@ body {
   position: relative;
   top: 50px;
   text-shadow: 0 2px 3px rgba(0,0,0,.4);
+  text-align: center;
+  color: #fff;
+  background: none;
 }
 
 /* Supporting */

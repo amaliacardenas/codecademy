@@ -43,8 +43,6 @@ body {
   color: rgb(0,255,188);
 }
 
-
-
 /* Jumbotron */
 .jumbotron {
   position: relative;
@@ -60,3 +58,18 @@ body {
   margin-top: 40px;
   text-shadow: 0 2px 3px rgba(0,0,0,.4);
 }
+
+.supporting img {
+  height: 128px;
+  width: 128px;
+  vertical-align: middle;
+}
+
+
+.supporting .col-md-4 {
+  text-align: center;
+  color: #fff;
+  margin-top: 40px;
+  font-size: 16px;
+}
+

@@ -45,6 +45,52 @@ html, body {
   font-weight: 700;
 }
 
+
+.supporting {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.supporting h4 {
+  color: #333;
+  font-size: 30px;
+}
+
+
+.supporting p {
+  font-family: 'Open Sans', 'sans-serif';
+  font-size: 14px;
+  min-height: 80px;
+}
+
+.supporting .btn {
+  text-decoration: none;
+  border: 1px solid #30627E;;
+  padding: 10px 20px;
+  color: #30627E;
+  width: 200px;
+  font-size: 16px;
+  margin: 20px;
+}
+
+.footer {
+  color: #fff;
+  background-color: #e52364;
+  height: 80px;
+}
+
+.footer li {
+  list-style: none;
+  display: inline-block;
+  padding-top: 20px;
+  margin-left: 10px;
+  padding-left: 40px;
+}
+
+.footer p {
+  padding-top: 20px;
+}
+
 @media (max-width: 500px) {
   ul li {
     width: 100%;

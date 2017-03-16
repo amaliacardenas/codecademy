@@ -4,6 +4,8 @@ html, body {
   font-family: 'Open Sans', sans-serif;
 }
 
+/*main header section*/
+
 .container {
   max-width: 940px;
   margin: 0 auto;
@@ -34,7 +36,7 @@ html, body {
   margin-top: 15px;
 }
 
-.main a {
+.btn {
   text-decoration: none;
   background-color: #4386fc;
   color: #fff;
@@ -43,10 +45,13 @@ html, body {
   font-weight: 300;
 }
 
+/*supporting section*/
+
 
 .supporting {
   margin-top: 100px;
   margin-bottom: 130px;
+  text-align: center;
 }
 
 .supporting h2 {
@@ -61,13 +66,24 @@ html, body {
   padding: 0 30px;
 }
 
+/*feature section*/
+
 .feature {
   height: 500px;
+  background: url(https://s3.amazonaws.com/codecademy-content/projects/excursion/camp.png) no-repeat center center;
+  background-size: cover;
 }
+
+/*footer section*/
 
 .footer {
   padding: 30px;
+  background-color: #eee;
+  font-size: 11px;
 }
+
+
+/*media query*/
 
 @media (max-width: 960px) {
   .main {

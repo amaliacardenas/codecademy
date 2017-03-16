@@ -4,6 +4,23 @@ html, body {
   font-family: 'Montserrat', sans-serif;
 }
 
+
+body {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/projects/pocketbook/bg.jpg) no-repeat center center;
+  background-size: cover;
+}
+
 .container {
   max-width: 940px;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.header img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 50px;
+  width: 60px;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }

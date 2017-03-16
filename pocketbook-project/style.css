@@ -6,7 +6,7 @@ html, body {
 
 
 body {
-  background-image: url(https://s3.amazonaws.com/codecademy-content/projects/pocketbook/bg.jpg) no-repeat center center;
+  background: url(https://s3.amazonaws.com/codecademy-content/projects/pocketbook/bg.jpg) no-repeat center center fixed; 
   background-size: cover;
 }
 
